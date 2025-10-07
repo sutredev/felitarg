@@ -1,0 +1,22 @@
+{
+  "name": "felit_v2.2_fixed_render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "felit_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
