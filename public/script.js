@@ -9,7 +9,7 @@ async function loadMessages() {
     chatBox.innerHTML = '';
     for(const msg of messages){
         const el = document.createElement('div');
-        el.innerHTML = `<b style="color:${msg.is_admin?'gold':'white'}">${msg.username}</b>: ${msg.text}`;
+        el.innerHTML = `<b style="color:${msg.is_admin?'gold':'pink'}">${msg.username}</b>: ${msg.text}`;
         chatBox.appendChild(el);
     }
     chatBox.scrollTop = chatBox.scrollHeight;
